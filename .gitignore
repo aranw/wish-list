@@ -2,11 +2,3 @@
 .DS_Store
 .sass-cache/
 *.swp
-
-# We don’t want to bundle any compiled CSS...
-*.css
-# ...but still track inuit.css
-!inuit.css/
-
-# Ignore my little test/tinkering file
-inuit.css.html
