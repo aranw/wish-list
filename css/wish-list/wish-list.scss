@@ -61,9 +61,11 @@ h1,h2,h3,h4,h5,h6{
 }
 .btn--go{
     @extend .go;
+    @include font-size(20);
+    font-family:$font;
     color:#fff;
     background-color:$color;
-    padding:$half-spacing-unit +px;
+    padding:0 $base-spacing-unit +px;
     @include vendor(border-radius, $brand-round +px);
 }
 
