@@ -1,0 +1,77 @@
+/*------------------------------------*\
+    WISH-LIST.CSS
+\*------------------------------------*/
+/**
+ * VARS................
+ * MAIN................Base stuff
+ * TYPE................Typographical stuff
+ * BUTTONS.............
+ * MISC................
+ */
+
+
+
+
+
+/*------------------------------------*\
+    $VARS
+\*------------------------------------*/
+$font:                 "Mountains of Christmas";
+$color:                #c00;
+
+
+
+
+
+/*------------------------------------*\
+    $MAIN
+\*------------------------------------*/
+html{
+    font-family:sans-serif;
+}
+body{
+    max-width:720px;
+    margin:0 auto;
+    padding:$base-spacing-unit +px;
+}
+
+
+
+
+
+/*------------------------------------*\
+    $TYPE
+\*------------------------------------*/
+h1,h2,h3,h4,h5,h6{
+    font-family:$font;
+    color:$color;
+}
+
+
+
+
+
+/*------------------------------------*\
+    $BUTTONS
+\*------------------------------------*/
+.btn-row{
+    margin-bottom:0;
+    text-align:right;
+}
+.btn--go{
+    @extend .go;
+    color:#fff;
+    background-color:$color;
+    padding:$half-spacing-unit +px;
+    @include vendor(border-radius, $brand-round +px);
+}
+
+
+
+
+
+/*------------------------------------*\
+    $MISC
+\*------------------------------------*/
+::selection      { color:#fff; background:$color; }
+::-moz-selection { color:#fff; background:$color; }
