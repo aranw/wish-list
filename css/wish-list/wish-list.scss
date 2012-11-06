@@ -6,6 +6,7 @@
  * MAIN................Base stuff
  * TYPE................Typographical stuff
  * BUTTONS.............
+ * IMAGES..............
  * MISC................
  */
 
@@ -64,6 +65,20 @@ h1,h2,h3,h4,h5,h6{
     background-color:$color;
     padding:$half-spacing-unit +px;
     @include vendor(border-radius, $brand-round +px);
+}
+
+
+
+
+
+/*------------------------------------*\
+    $IMAGES
+\*------------------------------------*/
+.item-image{
+    @extend .sass-margin-bottom;
+    margin-right:auto;
+    margin-left: auto;
+    display:block;
 }
 
 
