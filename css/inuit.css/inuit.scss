@@ -148,14 +148,14 @@
 @import "partials/base/main";
 @import "partials/base/headings";
 @import "partials/base/paragraphs";
-@import "partials/base/smallprint";
-@import "partials/base/quotes";
-@import "partials/base/code";
+// @import "partials/base/smallprint";
+// @import "partials/base/quotes";
+// @import "partials/base/code";
 @import "partials/base/links";
 @import "partials/base/images";
 @import "partials/base/lists";
-@import "partials/base/tables";
-@import "partials/base/forms";
+// @import "partials/base/tables";
+// @import "partials/base/forms";
 
 
 /**
@@ -191,7 +191,7 @@
 /**
  * Style trumps; helper and brand classes
  */
-@import "partials/generic/widths";
-@import "partials/generic/brand";
+//@import "partials/generic/widths";
+//@import "partials/generic/brand";
 @import "partials/generic/helper";
 @import "partials/generic/debug";
